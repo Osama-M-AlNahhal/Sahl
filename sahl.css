@@ -1,0 +1,46 @@
+#nav_main_button {
+    color: gold;
+}
+body { 
+    padding-top: 96px; 
+}
+header {
+    background-image: url('banner3.jpg');
+    background-size: cover;
+    background-position: 70% 30%;
+}
+#moto {
+    margin-top: 170px;
+}
+#moto_description {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+#send_an_application {
+    margin-top: 20px;
+    background-image: url('app_banner.png');
+}
+#CG2_C1_icon {
+    position: relative;
+    bottom: 35px;
+}
+#CG2_C1_title {
+    position: relative;
+    bottom: 15px;
+}
+#CG2_C2_icon {
+    position: relative;
+    bottom: 35px;
+}
+#CG2_C2_title {
+    position: relative;
+    bottom: 15px;
+}
+#CG2_C3_icon {
+    position: relative;
+    bottom: 35px;
+}
+#CG2_C3_title {
+    position: relative;
+    bottom: 15px;
+}
