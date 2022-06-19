@@ -2,7 +2,8 @@
     color: gold;
 }
 body { 
-    padding-top: 96px; 
+    padding-top: 96px;
+    font-family: cairo;
 }
 header {
     background-image: url('banner3.jpg');
@@ -43,4 +44,77 @@ header {
 #CG2_C3_title {
     position: relative;
     bottom: 15px;
+}
+#navbar2 {
+    position: relative;
+    top: 0px;
+}
+#hotel_card_1_parent {
+    position: relative;
+    
+}
+#hotel_card_1_child {
+    position: absolute;
+    top: 200;
+}
+#selected_destinations {
+    background-color: rgb(240, 240, 250);
+    padding-bottom: 3%;
+}
+#mail_services {
+    background-image: url('app_banner.png');
+}
+#inputEmail {
+    width: 400px;
+}
+#footer_row {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#footer_section2_h1 {
+    color: gold;
+}
+#CG3_C1_body {
+    padding: 15%;
+    margin-top: -10%;
+}
+#CG4_C_titleBg {
+    border-radius: 15% 0 0 15%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#sales {
+    margin-bottom: 5%;
+}
+#CG4_C1_Container {
+    position: relative;
+}
+.CG4_C1_thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: all 0.5s ease;
+}
+.CG4_C1_thecard:hover {
+    transform: rotate(180deg);
+}
+.CG4_C1_thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+}
+.CG4_C1_theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+#sales {
+    padding-bottom: 0.1em ;
+}
+#mostSold {
+    background-color: rgb(240, 240, 250);
 }
